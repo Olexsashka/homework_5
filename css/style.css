@@ -1,0 +1,27 @@
+a[href^="https"]{
+    color: red;
+}
+
+ul+p{
+    font-size: 24px;
+}
+
+#greycol{
+    color: grey;
+}
+
+.yellow{
+    color: yellow;
+}
+
+.text-box > p:nth-last-of-type(2){
+    color: green;
+}
+
+div>div>p{
+    color: red;
+}
+
+.text-box > h3:first-child{
+    color: pink;
+}
